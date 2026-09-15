@@ -71,7 +71,7 @@ def transform_resume(resume_text):
         user_prompt
     ]
 
-    reasoning_output = fast_llm.invoke(reasoning_message)
+    reasoning_output = reasoning_llm.invoke(reasoning_message)
 
     with open("./output_reasoning.json", "w") as f:
         f.write(reasoning_output.content)
