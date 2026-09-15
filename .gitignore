@@ -1,0 +1,6 @@
+.env
+*.env
+*.docx
+output*.json
+.venv/
+__pycache__/
